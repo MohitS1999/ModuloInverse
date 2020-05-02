@@ -1,3 +1,5 @@
+//The multiplicative inverse of “a modulo m” exists if and only if a and m are relatively prime (i.e., if gcd(a, m) = 1).
+//A Naive method is to try all numbers from 1 to m. For every number x, check if (a*x)%m is 1.
 import java.util.*;
 public class ModuloInverse{
 	public static void main(String[] args){
